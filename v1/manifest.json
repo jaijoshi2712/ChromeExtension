@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Reading time",
+    "name": "Jai Chrome Extension",
     "version": "1.0",
-    "description": "Add the reading time to Chrome Extension documentation articles",
+    "description": "Chrome extension that helps in more efficient browsing",
   
     "icons": {
       "16": "images/icon-16.png",
@@ -12,7 +12,7 @@
     },
     "content_scripts": [
       {
-        "js": ["scripts/content.js", "scripts/popup.js"],
+        "js": ["scripts/content.js"],
         "css": ["scripts/content.css"],
         "matches": [
 
